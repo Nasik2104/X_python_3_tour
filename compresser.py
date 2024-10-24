@@ -4,6 +4,8 @@ from collections import Counter
 from typing import Dict
 
 
+"""Взято з ГПТ бо було цікаво глянути на код у хаффмані"""
+
 class HuffmanNode:
     def __init__(self, char: str = None, freq: int = 0):
         self.char = char
